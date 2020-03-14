@@ -3,27 +3,88 @@ Sample css code
 */
 /* Set height to 100% for body and html to enable the background image to cover the whole page: */
 body,
+
 html {
   height: 100%;
 }
 
 /*Set background image*/
-.container {
-  background-image: url('https://doc-10-ao-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/r085o9ungppbiokopob2sfbekae4uqbb/1537920000000/14802840322886517493/*/110cT8sl-pOiHGgj9yToPkAqAzrr-RNfb');
-  height: 100%;
-  background-position: center;
-  background-size: cover;
+.wrapper {
+    width: 1170px;
+    margin: auto;
 }
+header {
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("https://pngimage.net/wp-content/uploads/2018/06/information-technology-backgrounds-png.png");
+    height: 100%;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+}
+.nav-area{
+    float: right;
+    list-style:georgian;
+    margin-top: 50px;
+}
+.nav-area li{
+    display: inline-block;
+}
+
+.nav-area li a{
+    color: #fff;
+    text-decoration:double;
+    padding: 5px 20px;
+    font-family:'Poor Richard';
+    font-size: 16px;
+}
+.nav-area a:hover{
+    background:#fff;
+    color:#333;
+}
+.logo img{
+    width:100px;
+    float:left;
+    height:auto;    
+}
+.welcome-page{
+    position: absolute;
+    width:400px;
+    height:300px;
+   color: beige;
+  margin:15% 38%;
+  text-align: center;
+
+}
+.welcome-page h1{
+    text-align: center;
+    color: #fff;
+    text-transform:uppercase;
+    font-size:40px;
+}
+.welcome-page a{
+    border: 1px solid #fff;
+    padding: 10px 25px;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-size: 14px;
+    margin-top:20px;
+    display:inline-block;
+    color:#fff;
+}
+ .welcome-page a:hover {
+        background: #fff;
+        color: #333;
+    }
 
 /* Position text in the middle */
 .middle {
-  position: absolute;
-  color: beige;
-  top: 70%;
-  left: 39%;
-  text-align: center;
-  font-size: 25px;
+    position: absolute;
+    color: beige;
+    top: 70%;
+    left: 39%;
+    text-align: center;
+    font-size: 25px;
 }
+
 
 /*Set circle in unordered list*/
 .middle ul {
