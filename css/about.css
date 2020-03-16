@@ -1,28 +1,36 @@
-/**
+**
+
 Sample css code
+
 */
 /* Set height to 100% for body and html to enable the background image to cover the whole page: */
 /*body,
-html {
-  height: 100%;
-}*/
 
+html {
+
+  height: 100%;
+
+}*/
 html, body {
     margin: 0;
     padding: 0;
     width: 100%
 }
 
+
+
 body {
     width: 100%;
     height: 100vh;
-    background: url('BG.jpg');
+    background: url('img2.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     display: table;
     font-family: Quicksand;
 }
+
+
 
 .nav {
     position: fixed;
@@ -34,18 +42,27 @@ body {
     height: 80px;
 }
 
+
+
 .left {
     float: left;
     padding: 1em 3em;
 }
 
+
+
     .left ul {
         list-style: none;
     }
 
+
+
         .left ul li {
             display: inline-block;
         }
+
+
+
 
 
             .left ul li a {
@@ -55,15 +72,21 @@ body {
                 padding: 8px 16px;
             }
 
+
+
     .left li:nth-child(1) a {
         border: 1px solid beige;
         border-radius: 4px;
     }
 
+
+
     .left li:nth-child(2) a {
         border: 1px solid beige;
         border-radius: 4px;
     }
+
+
 
     .left .mod {
         background-image: linear-gradient(to right,#3498db,#faf096);
@@ -71,9 +94,13 @@ body {
         transition: 0.8s all;
     }
 
+
+
         .left .mod:hover {
             background-position: -100%;
         }
+
+
 
 .header {
     text-align: center;
@@ -82,6 +109,8 @@ body {
     left: 50%;
     transform: translate(-50%,-50%);
 }
+
+
 
     .header h1 {
         color: #780a0a;
@@ -92,9 +121,13 @@ body {
         transition: 0.8s all;
     }
 
+
+
         .header h1 .mod {
             background-position: -100%;
         }
+
+
 
 .team {
     overflow: hidden;
@@ -104,11 +137,21 @@ body {
 
 
 
+
+
+
+
     .team h1 {
         color: #fff;
         font-size: 50px;
         font-family: 'Brush Script MT';
     }
+
+
+
+
+
+
 
 
 
@@ -123,9 +166,13 @@ body {
     margin-bottom: 40px;
 }
 
+
+
 .ps {
     margin-bottom: 40px;
 }
+
+
 
     .ps a {
         display: inline-block;
@@ -136,15 +183,21 @@ body {
         border-radius: 50%;
     }
 
+
+
         .ps a img {
             width: 100%;
             filter: grayscale(100%);
             transition: 0.4s all;
         }
 
+
+
         .ps a:hover > img {
             filter: none;
         }
+
+
 
 .section {
     width: 300px;
@@ -156,9 +209,13 @@ body {
     overflow: hidden;
 }
 
+
+
     .section:target {
         height: auto;
     }
+
+
 
     .section p {
         font-family: cursive;
@@ -166,6 +223,8 @@ body {
         border: 1px solid beige;
         border-radius: 4px;
     }
+
+
 
 .name {
     display: block;
@@ -180,7 +239,13 @@ body {
 
 
 
+
+
+
+
+
 /*Set background image*/
+
 .container {
     background-image: url('https://doc-10-ao-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/r085o9ungppbiokopob2sfbekae4uqbb/1537920000000/14802840322886517493/*/110cT8sl-pOiHGgj9yToPkAqAzrr-RNfb');
     height: 100%;
@@ -188,7 +253,10 @@ body {
     background-size: cover;
 }
 
+
+
 /* Position text in the middle */
+
 .middle {
     position: absolute;
     color: beige;
@@ -198,93 +266,59 @@ body {
     font-size: 25px;
 }
 
+
+
     /*Set circle in unordered list*/
+
     .middle ul {
         list-style-type: circle;
     }
 
+
+
         /*Set text inside li tag to left*/
+
         .middle ul li {
             text-align: left !important;
         }
 
+
+
             /*Set text color for a tag inside middle class and ul>li element*/
+
             .middle ul li a {
                 color: beige;
             }
 
+
+
                 /*Change text color and decoration for a tags inside middle class and ul>li element*/
+
                 .middle ul li a:hover {
                     color: red;
                     text-decoration: none;
                 }
 
 
+
+
+
 .main-nav {
     float: right;
     list-style: none;
-    margin-top: 30 px
+    margin-top: 30px;
 }
+
+
 
 .wrapper {
     margin: 0 auto;
     width: 1000px;
 }
 
+
+
 .img-about {
     width: 300px;
 }
-
-#content {
-    width: 880px;
-    height: auto;
-    background-color: #FFF;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 5px;
-    margin-top: 70px;
-}
-
-.t1 {
-    border: 3px solid #808080;
-    border-collapse: collapse;
-}
-
-td, th {
-    border: 1px solid #dddddd;
-    text-align: left;
-    padding: 8px;
-}
-
-tr:nth-child(even) {
-    background-color: #dddddd;
-}
-
-.table-title {
-    padding: 20px 10px 10px 10px;
-    text-align: center;
-}
-
-.t1 td, .t1 th {
-    border: 1px solid #ddd;
-    padding: 12px;
-}
-
-.t1 tr:nth-child(even) {
-    background-color: #f2f2f2;
-}
-
-.t1 tr:hover {
-    background-color: #ddd;
-}
-
-
-.t1 th {
-    padding-top: 12px;
-    padding-bottom: 12px;
-    text-align: center;
-    background-color: black;
-    color: white;
-}
-
 
