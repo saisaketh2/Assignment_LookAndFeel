@@ -234,3 +234,57 @@ body {
 .img-about {
     width: 300px;
 }
+
+#content {
+    width: 880px;
+    height: auto;
+    background-color: #FFF;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    margin-top: 70px;
+}
+
+.t1 {
+    border: 3px solid #808080;
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.table-title {
+    padding: 20px 10px 10px 10px;
+    text-align: center;
+}
+
+.t1 td, .t1 th {
+    border: 1px solid #ddd;
+    padding: 12px;
+}
+
+.t1 tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.t1 tr:hover {
+    background-color: #ddd;
+}
+
+
+.t1 th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+
